@@ -1,0 +1,11 @@
+{
+  "name": "pig-latin-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LEARNAcademy/pig-latin-project.git",
+  "author": "damonlemmons <jumproper22@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^24.7.1"
+  }
+}
