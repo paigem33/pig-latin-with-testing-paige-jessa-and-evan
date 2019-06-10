@@ -10,15 +10,17 @@
 //     })
 // }) //end describe
 
+
+
 //declare function with 1 argument
 pigLatPrime = (string) => {
+    var string = document.getElementById('userText').value
     // declare new array of input split into individual words
     string = string.toLowerCase()
-    var array = string.split([' '])
-    const ay = 'ay'
+    var array = string.split(' ')
     const vowels = ['a','e','i','o','u']
     //take each word of the array and remove initial consonants, append to the end of the word and add "ay"
-    return newPig = array.map(word => {
+    const newPig = array.map(word => {
         let vowelLocal = 0
         if(vowels.includes(word[0])){
             return word + 'way'
@@ -34,11 +36,12 @@ pigLatPrime = (string) => {
                     break
                 }
             }
-            return word.slice(vowelLocal) + word.slice(0, vowelLocal) + ay
+            return word.slice(vowelLocal) + word.slice(0, vowelLocal) + 'ay'
         }
     }).join(" ")
-
+document.getElementById('funcOutput').innerHTML = newPig
 }
+
 //
 // describe('qFunc',() => {
 //     test("testing for instance of q and u",() => {
