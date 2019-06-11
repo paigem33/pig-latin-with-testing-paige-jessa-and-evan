@@ -1,0 +1,134 @@
+/*  font-family: 'Ruge Boogie', cursive;
+font-family: 'Kalam', cursive;*/
+html {
+    background-color: #ffb3e6;
+}
+#welcomeMsg {
+    font-family: 'Ruge Boogie', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+#userText {
+    width: 500px;
+    margin-bottom: 10px;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px 10px 0 10px;
+
+}
+.centerThis {
+    max-width: 500px;
+    margin: 0 auto
+}
+#translateArea {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+button {
+    margin: 10px;
+    min-height: 35px;
+    color: #fff;
+    background-color: #00b33c;
+    border-radius: 10px;
+    font-family: 'Kalam', cursive;
+    font-size: 16px;
+    padding: 5px;
+}
+button:hover {
+    background-color: #00cc44;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#funcOutput {
+    margin-top: 25px;
+    width: 490px;
+    min-height: 70px;
+    border: solid 1px black;
+    background-color: #fff;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#firstPig {
+    width: 175px;
+    left: -35px;
+    bottom: -300px;
+    position: relative;
+    z-index: 1;
+}
+#secondPig {
+    width: 140px;
+    position: relative;
+    left: 500px;
+    bottom: -300px;
+    z-index: 1;
+}
+#explainRule {
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Ruge Boogie', cursive;
+    font-size: 40px;
+    margin-bottom: 0
+}
+.textResponse {
+    position: absolute;
+    max-width: 500px;
+    margin: 0 auto;
+}
+#pig1Talk {
+    position: relative;
+    top: 300px;
+    left: 150px;
+    background-color: #fff;
+    border-radius: 20px 20px 20px 0;
+    padding: 0 10px;
+    font-family: 'Kalam', cursive;
+}
+#pig2Talk {
+    position: relative;
+    left: 160px;
+    top: -20px;
+    background-color: #fff;
+    border-radius: 20px 20px 0 20px;
+    padding: 0 10px;
+    font-family: 'Kalam', cursive;
+}
+ #clicky {
+     text-align: center;
+ }
+ #firstPig:hover, #secondPig:hover {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#grassImage {
+    position: relative;
+    bottom: 275px;
+    width: 100%;
+}
+
+/* .pigPics {
+    position: fixed;
+    bottom: 1px
+} */
