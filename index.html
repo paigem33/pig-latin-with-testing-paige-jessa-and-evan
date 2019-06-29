@@ -2,63 +2,28 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <title>Pig Latin Translater</title>
         <link href="https://fonts.googleapis.com/css?family=Kalam|Ruge+Boogie&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
         <div class="container">
-            <h1 id="welcomeMsg" >Pig Translater: Talk like a pig</h1>
-            <div class="centerThis">
-            <form id="translateArea">
-                <textarea name="message" id="userText" placeholder="Type your message to the pig here"></textarea>
-                <button type="button" name="button" onclick="pigLatPrime()">Click to translate</button>
+            <h1>Pig Latin Translater</h1>
+            <div class="formDiv">
+            <form>
+                <textarea name="message" id="userText" placeholder="Type your message here"></textarea>
+                
+                <button type="button" name="button" onclick="pigLatPrime()">Translate</button>
+                
                 <button type="reset" name="button" value="Reset form">Reset</button>
-            </form>
+            
             <div id="funcOutput"></div>
+                </form>
             </div>
-            <h2 id="explainRule">The Intricacies of Pig Language:</h2>
-            <p id="clicky">
-                *Hover over each pig to learn from the native speakers*
-            </p>
-            <div class="textResponse">
-            <div id="pig1Talk" style="display: none">
-                <p>
-                    How do ya' speak pig again?
-                </p>
-
-            </div>
-
-            <div id="pig2Talk" style="display: none">
-            <p>Let me regale you about the ancient history of the complex dialect of our forefathers.</p>
-            <ul>
-                <li>
-                    When a human word starts with a vowel, you take that word and add "way" to the end of it.
-                </li>
-                <li>
-                    When a human word starts with a consonant, you take all of the consonants in front of the first vowel, move those to the end of the word, and add "ay"
-                </li>
-                <li>
-                    Now bare with me, this is when it gets complicated. If the human word contains a 'q', you must treat the subsequent 'u' as if it were a consonant.
-                </li>
-                <li>
-                    If the human word contains a 'y' anywhere besides the first letter, then you will treat the 'y' as if it were a vowel.
-                </li>
-                <li>
-                    If the human word starts with a 'Y' then you will treat this 'Y' as if it were a consonant.
-                </li>
-            </ul>
-            </div>
-            </div>
-            <div class="pigPics">
-            <img src="images/piggy-clipart-pig-dissection-6.png" alt="pig" id="firstPig">
-            <img src="images/344716.png" alt="pig" id="secondPig">
-            </div>
-            <img src= "images/grass2.png"
-            id="grassImage" />
-
         </div>
-
-        <script type="text/javascript" src="piglatin.test.js"></script>
+        <img src= "images/grass2.png"
+            id="grassImage" alt="grass image"/>
+        <script src="piglatin.test.js"></script>
     </body>
 </html>

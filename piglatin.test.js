@@ -123,17 +123,17 @@ const yFunc = (str) => {
     return str.slice(vowelLocalY) + str.slice(0,vowelLocalY) + 'ay'
 }
 
-var pigTalk = document.getElementById('firstPig');
-pigTalk.onmouseover = function(){
-    document.getElementById('pig1Talk').style.display = 'block';
-}
-pigTalk.onmouseout = function(){
-    document.getElementById('pig1Talk').style.display = 'none';
-}
-var pigTalk1 = document.getElementById('secondPig');
-pigTalk1.onmouseover = function(){
-    document.getElementById('pig2Talk').style.display = 'block';
-}
-pigTalk1.onmouseout = function(){
-    document.getElementById('pig2Talk').style.display = 'none';
-}
+//var pigTalk = document.getElementById('firstPig');
+//pigTalk.onmouseover = function(){
+//    document.getElementById('pig1Talk').style.display = 'block';
+//}
+//pigTalk.onmouseout = function(){
+//    document.getElementById('pig1Talk').style.display = 'none';
+//}
+//var pigTalk1 = document.getElementById('secondPig');
+//pigTalk1.onmouseover = function(){
+//    document.getElementById('pig2Talk').style.display = 'block';
+//}
+//pigTalk1.onmouseout = function(){
+//    document.getElementById('pig2Talk').style.display = 'none';
+//}
